@@ -1,0 +1,43 @@
+body { background: #fff; }
+.wrapper {
+    margin: -50px auto 0 auto;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+#canvas {
+    padding: 10px;
+    position: absolute;
+    z-index: -1;    
+    top: 202px;
+    margin: 0 auto;
+}
+
+#bg {
+    position: absolute;
+    top: 7px;
+    left: 18px;
+    background: transparent;
+}
+
+#notice {
+    position: absolute;     
+    width: 180px;
+    height: 18px;
+    color: #ff6600;   
+    text-align: center;
+    z-index: -10;
+    font-size: 12px;
+    top: 651px;
+    left: 220px;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 350px;
+    left: 261px;
+    z-index: -100;
+    display: none;
+}
