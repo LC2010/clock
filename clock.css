@@ -1,4 +1,4 @@
-body { background: #fff; }
+body { background: #fff; position: absolute;top: 50%; margin-top: -470px; margin-left: -320px; left: 50%;  }
 .wrapper {
     margin: -50px auto 0 auto;
     width: 600px;
@@ -24,12 +24,13 @@ body { background: #fff; }
     position: absolute;     
     width: 180px;
     height: 18px;
-    color: #ff6600;   
+    color: #999;   
     text-align: center;
     z-index: -10;
-    font-size: 12px;
-    top: 651px;
+    font-size: 16px;
+    top: 640px;
     left: 220px;
+    border: 1px solid #e7e7e7;
 }
 
 #logo {
